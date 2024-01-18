@@ -21,9 +21,15 @@ Consigli del giorno:
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 ## SVOLGIMENTO MAIL
+- chiedo mail all'utente con un input
+
+- recupero valore email
+
+- recupero bottone
+
 - creo array con delle mail
 
-- chiedo mail all'utente con un prompt
+- creo variabile booleana
 
 - creo ciclo for per controllare che l'input (mail) sia presente nell'array
 
@@ -31,7 +37,7 @@ Consigli del giorno:
 
     - stampo alert con esito positivo
 
-- altrimenti se la mail non è presente 
+- se la mail non è presente 
 
     - stampo alert con esito negativo
  
