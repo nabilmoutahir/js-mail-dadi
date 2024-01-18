@@ -16,3 +16,7 @@ console.log(result)
 const button = document.getElementById("generator")
 console.log(button)
 
+// creo array
+const numbers = ["1", "2", "3", "4", "5", "6"]
+console.log(numbers)
+
