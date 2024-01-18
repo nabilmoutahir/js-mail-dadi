@@ -33,6 +33,18 @@ button.addEventListener('click', function() {
 
     pcValue.innerHTML = (pcNumber)
 
-    
+    // condizionali
+    if(userNumber > pcNumber) {
+
+        result.innerHTML = ("Ha vinto l'user!")
+
+    } else if (userNumber < pcNumber) {
+
+        result.innerHTML = ("Ha vinto il pc!")
+        
+    } else {
+
+        result.innerHTML = ("...")
+    }
 
 })
