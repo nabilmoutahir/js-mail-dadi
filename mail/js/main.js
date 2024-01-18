@@ -1,26 +1,47 @@
 console.log('JS OK')
 
+// recupero valore email
+const mailInput = document.getElementById("email-input");
+console.log(mailInput);
+
+// recupero button
+const btn = document.getElementById("submit-btn");
+console.log(btn);
+
 // creo array
 const autorizedMails = ["tiziano@boolean.it", "mattia@boolean.it", "luigi@boolean.it"]
 console.log("lista mail accettate: " + autorizedMails)
 
-const mails = autorizedMails
-console.log(mails)
+let correct = false
 
-// creo prompt input mail
-const inputMail = prompt('Inserisci la tua mail:')
-console.log("la mail inserita nel prompt è: " + inputMail)
+// event listener
+btn.addEventListener ('click', function(){
 
-// ciclo for per controllare l'input
-for (let i=0; i<mails.length; i++){
-    
-    console.log(mails[i])
+    const mail = mailInput.value;
+    console.log(mail)
 
-    // se la mail è presente:
-    if(inputMail == mails[i]){
+    for (let i=0; i<autorizedMails.length; i++){
 
-        // stampo alert con esito positivo
-        const correct = alert("L'email inserita è corretta!")
+        // se la mail è presente:
+        if(mail == autorizedMails[i]){
 
+            // stampo alert con esito positivo
+            alert("L'email inserita è corretta!")
+            
+            correct = true
+        }  
     }
-}
+
+    if (!correct) {
+        // stampo alert con esito negativo
+        alert("L'email inserita non è corretta!");
+    }
+    
+})
+
+           
+
+
+
+
+
