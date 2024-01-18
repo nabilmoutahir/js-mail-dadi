@@ -44,7 +44,7 @@ Consigli del giorno:
 
 ## SVOLGIMENTO DADI
 
-- recupero valori utili
+- recupero elementi utili
 
 - creo l'array con numeri da 1 a 6
 
