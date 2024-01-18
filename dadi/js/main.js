@@ -20,3 +20,19 @@ console.log(button)
 const numbers = ["1", "2", "3", "4", "5", "6"]
 console.log(numbers)
 
+// event listener sul bottone
+button.addEventListener('click', function() {
+    
+    // numero random per user
+    const userNumber = numbers[Math.floor(Math.random() * 6)];
+
+    // numero random per pc
+    const pcNumber = numbers[Math.floor(Math.random() * 6)];
+
+    userValue.innerHTML = (userNumber)
+
+    pcValue.innerHTML = (pcNumber)
+
+    
+
+})
