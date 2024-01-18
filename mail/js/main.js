@@ -11,3 +11,16 @@ console.log(mails)
 const inputMail = prompt('Inserisci la tua mail:')
 console.log("la mail inserita nel prompt è: " + inputMail)
 
+// ciclo for per controllare l'input
+for (let i=0; i<mails.length; i++){
+    
+    console.log(mails[i])
+
+    // se la mail è presente:
+    if(inputMail == mails[i]){
+
+        // stampo alert con esito positivo
+        const correct = alert("L'email inserita è corretta!")
+
+    }
+}
