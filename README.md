@@ -43,3 +43,23 @@ Consigli del giorno:
  
 
 ## SVOLGIMENTO DADI
+
+- recupero valori utili
+
+- creo l'array con numeri da 1 a 6
+
+- creo event listerner sul bottone
+
+- creo costanti per valori random basati sull'array
+
+- al "click" del bottone
+
+    - se il valore generato dall'utente è maggiore
+
+        - cambio innerHtml di un elemento con "ha vinto l'user"
+
+    - altrimenti se il valore generato dal pc è maggiore
+
+         - cambio innerHtml di un elemento con "ha vinto il pc"
+
+    - altrimenti se il valore è diverso (pari) compare "..."
